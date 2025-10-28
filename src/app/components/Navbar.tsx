@@ -35,7 +35,8 @@ export function Navbar() {
       </div>
 
       <div className="container-button">
-        <RootButton label="Join" width="sm" variant="primary" onClick={()=> console.log('Holaa')}></RootButton>
+        <RootButton label="Join" width="sm"   onClick={()=> console.log('Holaa')}></RootButton>
+        
       </div>
     </nav>
   );

@@ -21,9 +21,12 @@ export const RootButton: React.FC<ButtonProps> = ({
     "rounded-xl font-medium py-2 px-4 transition-colors duration-200";
 
   const variants = {
-    primary: "bg-lime-400 text-white hover:bg-emerald-500",
-    secondary: "bg-amber-200 text-black hover:bg-yellow-500",
+    primary:
+      "bg-lime-400 text-white hover:bg-emerald-500 disabled:bg-lime-300 disabled:cursor-not-allowed disabled:opacity-60",
+    secondary:
+      "bg-amber-200 text-black hover:bg-yellow-500 disabled:bg-amber-100 disabled:cursor-not-allowed disabled:opacity-60",
   };
+
 
 
   const widths = {
@@ -31,13 +34,13 @@ export const RootButton: React.FC<ButtonProps> = ({
     md: "w-36",
     lg: "w-48", 
   };
-  const disabledClass = disabled ? "opacity-60 cursor-not-allowed" : "";
+ 
 
   return (
     <button
       onClick={!disabled ? onClick : undefined}
       disabled={disabled}
-      className={`${base} ${variants[variant]} ${widths[width]} ${disabledClass}`}
+      className={`${base} ${variants[variant]} ${widths[width]}`}
     >
       {label}
     </button>
