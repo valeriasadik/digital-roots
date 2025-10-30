@@ -1,10 +1,10 @@
 "use client";
 
-import RootButton from "./ui/RootButton";
+import RootButton from "./atoms/RootButton";
 
 export function Navbar() {
   return (
-    <nav className="flex justify-between items-center fixed top-0 left-0 w-full h-13 px-6 bg-neutral-50 backdrop-blur-md shadow-sm">
+    <nav className="flex justify-between items-center fixed top-0 left-0 w-full h-[60px] px-6 bg-neutral-50 backdrop-blur-md shadow-sm z-50">
       <div className="logo-container">
         <h1 className="text-xl font-semibold">Digital Roots</h1>
       </div>
@@ -35,7 +35,7 @@ export function Navbar() {
       </div>
 
       <div className="container-button">
-        <RootButton label="Join" width="sm"   onClick={()=> console.log('Holaa')}></RootButton>
+        <RootButton label="Join" width="sm"  onClick={()=> console.log('Holaa')}></RootButton>
         
       </div>
     </nav>

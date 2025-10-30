@@ -22,7 +22,7 @@ export const RootButton: React.FC<ButtonProps> = ({
 
   const variants = {
     primary:
-      "bg-lime-400 text-white hover:bg-emerald-500 disabled:bg-lime-300 disabled:cursor-not-allowed disabled:opacity-60",
+      "bg-lime-600 text-white hover:bg-emerald-500 disabled:bg-lime-300 disabled:cursor-not-allowed disabled:opacity-60",
     secondary:
       "bg-amber-200 text-black hover:bg-yellow-500 disabled:bg-amber-100 disabled:cursor-not-allowed disabled:opacity-60",
   };
