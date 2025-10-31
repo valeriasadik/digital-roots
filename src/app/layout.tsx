@@ -1,18 +1,14 @@
 
 import "./globals.css";
 
-
-
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  return ( 
+  return (
     <html lang="en">
-      <body 
-     
-      >
+      <body>
         {children}
       </body>
     </html>
