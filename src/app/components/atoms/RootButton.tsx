@@ -18,7 +18,7 @@ export const RootButton: React.FC<ButtonProps> = ({
   width = "md",
 }) => {
   const base =
-    "rounded-xl font-medium py-2 px-4 transition-colors duration-200";
+    "rounded-3xl font-medium py-2 px-4 transition-colors duration-200";
 
   const variants = {
     primary:

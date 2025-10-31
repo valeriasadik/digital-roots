@@ -1,12 +1,13 @@
 "use client";
 
-import RootButton from "./atoms/RootButton";
+import RootButton from "../atoms/RootButton";
 
 export function Navbar() {
   return (
-    <nav className="flex justify-between items-center fixed top-0 left-0 w-full h-[60px] px-6 bg-neutral-50 backdrop-blur-md shadow-sm z-50">
+    <header>
+    <nav aria-label="Main navigation" className="flex justify-between items-center fixed top-0 left-0 w-full h-[60px] px-6 bg-neutral-50/80 backdrop-blur-md shadow-sm z-50">
       <div className="logo-container">
-        <h1 className="text-xl font-semibold">Digital Roots</h1>
+        <span className="text-xl font-semibold">Digital Roots</span>
       </div>
 
       <div className="container-list">
@@ -39,5 +40,6 @@ export function Navbar() {
         
       </div>
     </nav>
+    </header>
   );
 }

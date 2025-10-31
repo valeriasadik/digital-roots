@@ -1,6 +1,6 @@
-import { Footer } from "./components/Footer";
-import { Hero } from "./components/Hero";
-import { Navbar } from "./components/Navbar";
+import { Footer } from "./components/organisms/Footer";
+import { Hero } from "./components/organisms/Hero";
+import { Navbar } from "./components/organisms/Navbar";
 
 export default function Home() {
   return (
