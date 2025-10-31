@@ -1,9 +1,11 @@
+import { HomeTemplate } from './components/templates/HomeTemplate';
 
+export const metadata = {
+  title: 'Digital Roots | Reconnect. Work. Grow.',
+  description:
+    'DigitalRoots connects remote workers with rural communities across Spain, revitalizing these areas through remote work.',
+};
 
 export default function Home() {
-  return (
-     <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  );
+  return <HomeTemplate />;
 }
