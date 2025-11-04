@@ -14,7 +14,7 @@ export function HeroContent() {
     >
       <div className="absolute inset-0 -z-10">
         <Image
-          src="/images/background.jpg"
+          src="/images/background2.jpg"
           alt=""
           fill
           priority
@@ -29,7 +29,7 @@ export function HeroContent() {
           RECONNECT. WORK. GROW
         </span>
         <p className="mx-auto max-w-prose text-center text-base tracking-tight text-white md:tracking-wide">
-          Digital Roots connects remote workers with rural communities across Spain, revitalizing
+          DigitalRoots connects remote workers with rural communities across Spain, revitalizing
           these areas through remote work.
         </p>
 

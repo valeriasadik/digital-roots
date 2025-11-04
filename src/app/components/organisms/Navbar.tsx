@@ -6,9 +6,9 @@ import { MdEmail } from "react-icons/md";
 export function Navbar() {
   return (
     <header>
-    <nav aria-label="Main navigation" className="flex justify-between items-center fixed top-0 left-0 w-full h-[60px] px-6 bg-neutral-50/30 backdrop-blur-md shadow-sm z-50">
+    <nav aria-label="Main navigation" className="flex justify-between items-center fixed top-0 left-0 w-full h-[60px] px-6 bg-neutral-50 backdrop-blur-md shadow-sm z-50">
       <div className="logo-container">
-        <span className="text-xl font-semibold">Digital Roots</span>
+        <span className="text-xl font-black">DigitalRoots</span>
       </div>
       <div className="container-button">
         <RootButton
