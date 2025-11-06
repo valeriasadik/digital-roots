@@ -1,6 +1,6 @@
 # 🌱 Digital Roots
 
-**Digital Roots** es una aplicación open-source creada por [@valeria](#) para promover la conexión entre tecnología y territorio.  
+**Digital Roots** es una aplicación open-source creada por [@valeriasadik](#) para promover la conexión entre tecnología y territorio.  
 El objetivo es dar visibilidad a proyectos rurales e iniciativas digitales en pueblos y zonas despobladas.
 
 ---
@@ -54,6 +54,6 @@ Es una forma de mostrar cómo la tecnología puede **revitalizar pueblos y crear
 
 ## 📬 Contacto
 
-- LinkedIn: [linkedin.com/in/valeria](#)
+- LinkedIn: [https://www.linkedin.com/in/valeria-de-la-rubia-sadik/](#)
 - Email: valeriasadik@hotmail.com
 
