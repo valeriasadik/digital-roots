@@ -1,7 +1,8 @@
 import AboutContent from "../components/molecules/AboutContent";
 
-export function About(){
+export default function AboutPage(){
     return(
         <AboutContent />
     )
 }
+
