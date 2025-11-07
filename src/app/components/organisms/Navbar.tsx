@@ -1,15 +1,23 @@
 "use client";
 
+import Link from "next/link";
 import RootButton from "../atoms/RootButton";
 import { MdEmail } from "react-icons/md";
 
 export function Navbar() {
   return (
     <header>
-    <nav aria-label="Main navigation" className="flex justify-between items-center fixed top-0 left-0 w-full h-[60px] px-6 bg-neutral-50 backdrop-blur-md shadow-sm z-50">
-      <div className="logo-container">
-        <span className="text-xl font-black">DigitalRoots</span>
-      </div>
+     <nav
+        aria-label="Main navigation"
+        className="mx-auto flex w-full max-w-7xl items-center justify-between gap-4 px-4 py-3 md:py-4"
+      >
+        <Link
+          href=""
+          className="group relative select-none font-black text-lg tracking-tight bg-gradient-to-r from-green-600 via-emerald-500 to-amber-300 bg-clip-text text-transparent drop-shadow-sm"
+        >
+          DigitalRoots
+          <span className="absolute -bottom-1 left-0 h-[2px] w-0 bg-gradient-to-r from-green-500 to-amber-300 transition-all duration-300 group-hover:w-full" aria-hidden="true" />
+        </Link>
       <div className="container-button">
         <RootButton
           label="Contact"
