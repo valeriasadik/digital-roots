@@ -7,12 +7,12 @@ El objetivo es dar visibilidad a proyectos rurales e iniciativas digitales en pu
 
 ## 🚀 Tech Stack
 
-- **Next.js 14**
-- **React 18**
-- **TailwindCSS**
+- **Next.js 15**
+- **React 19**
+- **TailwindCSS 4**
 - **TypeScript**
-- **Atomic Design**
-- **Vercel** (para deploy)
+- **Atomic Design (Design System en progreso)**
+- **Vercel** (deploy)
 ---
 
 ## 💡 Features Actuales

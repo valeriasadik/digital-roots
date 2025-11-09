@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React from 'react';
 import Image from 'next/image';
@@ -40,10 +40,12 @@ export function HeroContent() {
             iconPosition='right'
             width='lg'
             icon={<FaGithub className="text-lg" aria-hidden="true" />}
-            onClick={() => window.open("https://github.com/valeriasadik/digital-roots", "_blank")}
+            href="https://github.com/valeriasadik/digital-roots"
           />
         </div>
       </div>
     </section>
   );
 }
+
+export default HeroContent;

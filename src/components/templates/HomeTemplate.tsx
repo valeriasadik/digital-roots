@@ -5,11 +5,10 @@ import { Footer } from "../organisms/Footer";
 
 export function HomeTemplate() {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col min-h-screen">
       <header>
         <Navbar />
       </header>
-
       <main className="flex-1 flex flex-col">
         <Hero />
         <About />
@@ -18,3 +17,5 @@ export function HomeTemplate() {
     </div>
   );
 }
+
+export default HomeTemplate;

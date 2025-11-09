@@ -1,4 +1,5 @@
-import { HomeTemplate } from '../components/templates/HomeTemplate';
+import HomeTemplate from "@/components/templates/HomeTemplate";
+
 
 export const metadata = {
   title: 'Home | Digital Roots',
