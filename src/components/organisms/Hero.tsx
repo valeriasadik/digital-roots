@@ -1,7 +1,7 @@
 import { HeroContent } from "../molecules/HeroContent";
 
 export function Hero() {
-  return (
-    <HeroContent />
-  );
+  return <HeroContent />;
 }
+
+export default Hero;

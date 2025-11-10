@@ -1,4 +1,4 @@
-import AboutContent from "../components/molecules/AboutContent";
+import AboutContent from "@/components/molecules/AboutContent";
 
 export default function AboutPage(){
     return(

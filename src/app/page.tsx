@@ -1,11 +1,6 @@
-import { HomeTemplate } from './components/templates/HomeTemplate';
+import { HomeTemplate } from '@/components/templates/HomeTemplate';
+import { defaultMetadata } from '@/lib/metadata';
 
-export const metadata = {
-  title: 'Digital Roots | Reconnect. Work. Grow.',
-  description:
-    'DigitalRoots connects remote workers with rural communities across Spain, revitalizing these areas through remote work.',
-};
+export const metadata = defaultMetadata;
 
-export default function Home() {
-  return <HomeTemplate />;
-}
+export default function Home() { return <HomeTemplate />; }
