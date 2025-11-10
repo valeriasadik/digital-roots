@@ -1,48 +1,71 @@
 "use client";
 
-import React from 'react';
-import Image from 'next/image';
-import RootButton from '../atoms/RootButton';
-import { FaGithub } from 'react-icons/fa';
+import React from "react";
+import RootButton from "../atoms/RootButton";
+import { FaGithub } from "react-icons/fa";
 
 export function HeroContent() {
   return (
     <section
       id="hero"
       aria-labelledby="hero-heading"
-      className="relative isolate flex h-screen items-center justify-center bg-neutral-900"
+      className="relative isolate flex min-h-[80vh] items-center justify-center bg-[#FFFBF5]"
     >
-      <div className="absolute inset-0 -z-10">
-        <Image
-          src="/images/background2.jpg"
-          alt=""
-          fill
-          priority
-          sizes="100vw"
-          className="object-cover object-center"
+      <div className="flex flex-col items-center gap-6 px-4 py-12 text-center sm:gap-8 sm:py-16">
+        <div
+          className="flex flex-col sm:flex-row items-center justify-center gap-2 text-neutral-700"
           aria-hidden="true"
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-neutral-900/80" />
-      </div>
-      <div className="flex flex-col items-center gap-6 px-4">
-        <span className="text-center text-3xl leading-tight font-black tracking-tight text-white drop-shadow-md sm:text-4xl md:text-5xl lg:text-6xl">
-          RECONNECT. WORK. GROW
-        </span>
-        <p className="mx-auto max-w-prose text-center text-base tracking-tight text-white md:tracking-wide">
-          DigitalRoots connects remote workers with rural communities across Spain, revitalizing
-          these areas through remote work.
+        >
+          <span className="text-base sm:text-lg font-semibold tracking-widest uppercase">
+            Connecting communities
+          </span>
+          <span className="hidden sm:inline">·</span>
+          <span className="text-base sm:text-lg font-semibold tracking-widest uppercase">
+            Rural growth
+          </span>
+        </div>
+
+        <h1
+          id="hero-heading"
+          className="mx-auto max-w-4xl text-4xl font-black leading-tight tracking-tight text-neutral-900 sm:text-5xl md:text-6xl lg:text-7xl"
+        >
+          Reconnect. <span className="text-neutral-700">Work.</span> Grow.
+        </h1>
+
+        <p className="mx-auto max-w-2xl text-lg leading-relaxed text-neutral-600 md:text-xl">
+          DigitalRoots connects remote workers with rural communities across
+          Spain, revitalizing these areas through remote work.
         </p>
 
-        <div className="container-hero-buttons flex gap-2">
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-center">
           <RootButton
             variant="secondary"
             label="GitHub"
-            iconPosition='right'
-            width='lg'
+            iconPosition="right"
+            width="lg"
             icon={<FaGithub className="text-lg" aria-hidden="true" />}
             href="https://github.com/valeriasadik/digital-roots"
           />
         </div>
+      </div>
+
+      <div
+        className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce"
+        aria-hidden="true"
+      >
+        <svg
+          className="w-6 h-6 text-neutral-400"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M19 14l-7 7m0 0l-7-7m7 7V3"
+          />
+        </svg>
       </div>
     </section>
   );

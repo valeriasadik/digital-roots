@@ -1,11 +1,19 @@
 @import 'tailwindcss';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+    --color-sage: #5a8a5c; /* Sage green primary */
+  --color-forest: #1f4620; /* Deep forest */
+  --color-gold: #d4a574; /* Warm gold */
+  --color-cream: #fef9f0; /* Warm cream background */
+  --color-stone: #8b7355; /* Natural stone */
+  --color-dark: #1a1410; /* Deep brown */
+--background: var(--color-cream);
+  --foreground: var(--color-dark);
   font-family: var(--font-nunito), system-ui, sans-serif;
 }
 
 body {
-  font-family: var(--font-nunito), system-ui, sans-serif;
+  font-family: system-ui, -apple-system, sans-serif;
+  background-color: var(--background);
+  color: var(--foreground);
 }

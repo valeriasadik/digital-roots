@@ -29,10 +29,11 @@ export const RootButton: React.FC<ButtonProps> = ({
 
   const variants: Record<string, string> = {
     primary:
-      "bg-green-700 text-white hover:bg-emerald-800 disabled:bg-lime-300 disabled:cursor-not-allowed disabled:opacity-60",
+      "bg-green-900 text-white hover:bg-emerald-800 disabled:bg-lime-300 disabled:cursor-not-allowed disabled:opacity-60",
     secondary:
       "bg-amber-200 text-black hover:bg-yellow-500 disabled:bg-amber-100 disabled:cursor-not-allowed disabled:opacity-60",
   };
+
 
   const widths: Record<string, string> = {
     sm: "w-24",
