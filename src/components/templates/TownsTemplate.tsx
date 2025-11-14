@@ -1,14 +1,6 @@
 import { Towns } from "../organisms/Towns";
 import { Footer } from "../organisms/Footer";
-
-interface Town {
-  id: string;
-  name: string;
-  description: string;
-  imageUrl: string;
-  population?: number;
-  internet?: number;
-}
+import { Town } from "@/types/card";
 
 interface TownsTemplateProps {
   readonly towns: Town[];
