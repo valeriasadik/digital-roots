@@ -1,13 +1,13 @@
-import './globals.css';
-import { Nunito } from 'next/font/google';
+import Navbar from "@/components/organisms/Navbar";
+import "./globals.css";
+import { Nunito } from "next/font/google";
 
 const nunito = Nunito({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-nunito',
-  weight: ['300', '400', '600', '700', '800'],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-nunito",
+  weight: ["300", "400", "600", "700", "800"],
 });
-
 
 export default function RootLayout({
   children,
@@ -16,7 +16,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={nunito.variable}>
-      <body className="font-sans">{children}</body>
+      <body className="font-sans">
+        <Navbar />
+        {children}
+      </body>
     </html>
   );
 }
