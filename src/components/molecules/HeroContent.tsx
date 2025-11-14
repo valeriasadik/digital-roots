@@ -9,27 +9,15 @@ export function HeroContent() {
     <section
       id="hero"
       aria-labelledby="hero-heading"
-      className="relative isolate flex min-h-[80vh] items-center justify-center bg-[#FFFBF5]"
+      className="relative isolate flex min-h-[80vh] items-center justify-center"
     >
       <div className="flex flex-col items-center gap-6 px-4 py-12 text-center sm:gap-8 sm:py-16">
-        <div
-          className="flex flex-col sm:flex-row items-center justify-center gap-2 text-neutral-700"
-          aria-hidden="true"
-        >
-          <span className="text-base sm:text-lg font-semibold tracking-widest uppercase">
-            Connecting communities
-          </span>
-          <span className="hidden sm:inline">·</span>
-          <span className="text-base sm:text-lg font-semibold tracking-widest uppercase">
-            Rural growth
-          </span>
-        </div>
-
         <h1
           id="hero-heading"
           className="mx-auto max-w-4xl text-4xl font-black leading-tight tracking-tight text-neutral-900 sm:text-5xl md:text-6xl lg:text-7xl"
         >
-          Reconnect. <span className="text-neutral-700">Work.</span> Grow.
+          Reconnect. <span className="text-[var(--color-sage)]">Work.</span>{" "}
+          Grow.
         </h1>
 
         <p className="mx-auto max-w-2xl text-lg leading-relaxed text-neutral-600 md:text-xl">

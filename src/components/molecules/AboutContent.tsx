@@ -1,6 +1,6 @@
 "use client";
-import React from 'react';
-import Image from 'next/image';
+import React from "react";
+import Image from "next/image";
 
 export function AboutContent() {
   return (
@@ -26,31 +26,29 @@ export function AboutContent() {
         </div>
 
         <div className="flex flex-col gap-8">
-          <div className="flex items-center gap-3" aria-hidden="true">
-            <div className="h-1 w-8 rounded-full bg-neutral-800" />
-            <span className="text-sm font-semibold tracking-widest uppercase text-neutral-700">About</span>
-          </div>
-
           <h2
             id="about-heading"
             className="text-4xl font-black leading-tight tracking-tight text-neutral-900 sm:text-5xl"
           >
-            Digital Roots for the Rural Future
+            Digital Roots for the{" "}
+            <span className="text-[var(--color-sage)]">Rural Future</span>
           </h2>
 
           <div className="space-y-6">
             <p className="text-lg leading-relaxed text-neutral-600">
-              <span className="font-black text-neutral-900">Digital Roots</span> is a project designed to reconnect
-              remote professionals with rural communities across Spain. We believe remote work can be a powerful
+              <span className="font-black text-neutral-900">Digital Roots</span>{" "}
+              is a project designed to reconnect remote professionals with rural
+              communities across Spain. We believe remote work can be a powerful
               catalyst for local revitalization.
             </p>
 
             <p className="text-lg leading-relaxed text-neutral-600">
-              Our platform helps people discover authentic places to live and work closer to nature while contributing
-              to sustainable regional growth. We focus on collaboration, cultural exchange, and long-term impact.
+              Our platform helps people discover authentic places to live and
+              work closer to nature while contributing to sustainable regional
+              growth. We focus on collaboration, cultural exchange, and
+              long-term impact.
             </p>
           </div>
-
         </div>
       </div>
     </section>
