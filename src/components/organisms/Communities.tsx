@@ -12,7 +12,11 @@ export function Communities({ communities }: CommunitiesProps) {
       aria-label="Available communities list"
     >
       {communities.map((community) => (
-        <Card key={community.id} {...community} />
+        <Card
+          key={community.id}
+          {...community}
+          href={`/communities/${community.id}`}
+        />
       ))}
     </section>
   );

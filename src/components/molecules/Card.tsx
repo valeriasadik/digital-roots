@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface CardProps {
   readonly name: string;
@@ -9,6 +10,7 @@ interface CardProps {
   readonly internet?: number;
   readonly members?: number;
   readonly type?: string;
+  readonly href?: string;
 }
 
 export function Card({
@@ -19,8 +21,9 @@ export function Card({
   internet,
   members,
   type,
+  href,
 }: CardProps) {
-  return (
+  const content = (
     <article className="group relative overflow-hidden rounded-2xl border border-neutral-200 bg-white shadow-sm transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
       <div className="relative h-56 w-full overflow-hidden bg-neutral-100">
         <Image
@@ -84,6 +87,16 @@ export function Card({
       </div>
     </article>
   );
+
+  if (href) {
+    return (
+      <Link href={href} className="block h-full">
+        {content}
+      </Link>
+    );
+  }
+
+  return content;
 }
 
 export default Card;
