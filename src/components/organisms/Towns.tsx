@@ -12,7 +12,7 @@ export function Towns({ towns }: TownsProps) {
       aria-label="Available towns list"
     >
       {towns.map((town) => (
-        <Card key={town.id} {...town} />
+        <Card key={town.id} {...town} href={`/towns/${town.id}`} />
       ))}
     </section>
   );
