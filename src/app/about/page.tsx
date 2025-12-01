@@ -1,8 +1,5 @@
-import AboutContent from "@/components/molecules/AboutContent";
+import About from "@/components/organisms/About/About";
 
-export default function AboutPage(){
-    return(
-        <AboutContent />
-    )
+export default function AboutPage() {
+  return <About />;
 }
-

@@ -1,5 +1,5 @@
-import { DetailHero } from "../atoms/DetailHero";
-import { CommunityDetailContent } from "../molecules/CommunityDetailContent";
+import { DetailHero } from "../../atoms/DetailHero";
+import { CommunityDetail } from "../../organisms/Communities/CommunityDetail/CommunityDetailContent";
 import { Community } from "@/types/card";
 
 interface CommunityDetailTemplateProps {
@@ -16,7 +16,7 @@ export function CommunityDetailTemplate({
         imageUrl={community.imageUrl}
         description={community.description}
       />
-      <CommunityDetailContent community={community} />
+      <CommunityDetail community={community} />
     </main>
   );
 }

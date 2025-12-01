@@ -4,7 +4,7 @@ interface TownDetailContentProps {
   readonly town: Town;
 }
 
-export function TownDetailContent({ town }: TownDetailContentProps) {
+export function TownDetail({ town }: TownDetailContentProps) {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="max-w-4xl mx-auto">
@@ -62,4 +62,4 @@ export function TownDetailContent({ town }: TownDetailContentProps) {
   );
 }
 
-export default TownDetailContent;
+export default TownDetail;

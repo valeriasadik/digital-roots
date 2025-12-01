@@ -1,12 +1,10 @@
 import { Community } from "@/types/card";
 
-interface CommunityDetailContentProps {
+interface CommunityDetailProps {
   readonly community: Community;
 }
 
-export function CommunityDetailContent({
-  community,
-}: CommunityDetailContentProps) {
+export function CommunityDetail({ community }: CommunityDetailProps) {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="max-w-4xl mx-auto">
@@ -62,4 +60,4 @@ export function CommunityDetailContent({
   );
 }
 
-export default CommunityDetailContent;
+export default CommunityDetail;

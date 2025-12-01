@@ -1,5 +1,5 @@
-import { DetailHero } from "../atoms/DetailHero";
-import { TownDetailContent } from "../molecules/TownDetailContent";
+import { DetailHero } from "../../atoms/DetailHero";
+import { TownDetail } from "../../organisms/Towns/TownDetail/TownDetail";
 import { Town } from "@/types/card";
 
 interface TownDetailTemplateProps {
@@ -14,7 +14,7 @@ export function TownDetailTemplate({ town }: TownDetailTemplateProps) {
         imageUrl={town.imageUrl}
         description={town.description}
       />
-      <TownDetailContent town={town} />
+      <TownDetail town={town} />
     </main>
   );
 }

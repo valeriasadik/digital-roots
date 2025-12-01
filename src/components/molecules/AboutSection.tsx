@@ -2,7 +2,7 @@
 import React from "react";
 import Image from "next/image";
 
-export function AboutContent() {
+export function AboutSection() {
   return (
     <section
       id="about"
@@ -55,4 +55,4 @@ export function AboutContent() {
   );
 }
 
-export default AboutContent;
+export default AboutSection;

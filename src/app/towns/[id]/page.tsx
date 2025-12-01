@@ -1,4 +1,4 @@
-import { TownDetailTemplate } from "@/components/templates/TownDetailTemplate";
+import { TownDetailTemplate } from "@/components/templates/TownDetailTemplate/TownDetailTemplate";
 import { getTownById, getTowns } from "@/lib/data";
 import { buildTitle, siteMeta } from "@/lib/metadata";
 import { notFound } from "next/navigation";

@@ -1,4 +1,4 @@
-import { Card } from "../molecules/Card";
+import { Card } from "../../molecules/Card";
 import { Community } from "@/types/card";
 
 interface CommunitiesProps {
