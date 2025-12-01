@@ -1,5 +1,4 @@
-import { Hero } from "../organisms/Hero";
-
+import Hero from "@/components/organisms/Hero/Hero";
 import { About } from "../../organisms/About/About";
 import { Footer } from "../../organisms/Footer/Footer";
 
