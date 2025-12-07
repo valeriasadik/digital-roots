@@ -8,7 +8,7 @@ interface TownDetailTemplateProps {
 
 export function TownDetailTemplate({ town }: TownDetailTemplateProps) {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-white to-neutral-50">
+    <main className="min-h-screen">
       <DetailHero
         name={town.name}
         imageUrl={town.imageUrl}

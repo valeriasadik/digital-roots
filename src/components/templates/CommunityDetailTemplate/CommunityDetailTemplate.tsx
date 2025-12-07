@@ -10,7 +10,7 @@ export function CommunityDetailTemplate({
   community,
 }: CommunityDetailTemplateProps) {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-white to-neutral-50">
+    <main className="min-h-screen">
       <DetailHero
         name={community.name}
         imageUrl={community.imageUrl}
