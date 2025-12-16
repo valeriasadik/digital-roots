@@ -1,4 +1,4 @@
-import Navbar from "@/components/organisms/Navbar";
+import Navbar from "@/components/organisms/Navbar/Navbar";
 import "./globals.css";
 import { Nunito } from "next/font/google";
 

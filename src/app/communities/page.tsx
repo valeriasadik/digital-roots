@@ -1,4 +1,4 @@
-import { CommunitiesTemplate } from "@/components/templates/CommunitiesTemplate";
+import { CommunitiesTemplate } from "@/components/templates/CommunitiesTemplate/CommunitiesTemplate";
 import { getCommunities } from "@/lib/data";
 import { buildTitle, siteMeta } from "@/lib/metadata";
 

@@ -1,4 +1,4 @@
-import { TownsTemplate } from "@/components/templates/TownsTemplate";
+import { TownsTemplate } from "@/components/templates/TownsTemplate/TownsTemplate";
 import { getTowns } from "@/lib/data";
 import { buildTitle, siteMeta } from "@/lib/metadata";
 

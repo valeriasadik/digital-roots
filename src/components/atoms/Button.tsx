@@ -14,7 +14,7 @@ interface ButtonProps {
   href?: string; // internal (/...) or external (http/ https / mailto)
 }
 
-export const RootButton: React.FC<ButtonProps> = ({
+export const Button: React.FC<ButtonProps> = ({
   label,
   onClick,
   variant = "primary",
@@ -111,4 +111,4 @@ export const RootButton: React.FC<ButtonProps> = ({
   );
 };
 
-export default RootButton;
+export default Button;

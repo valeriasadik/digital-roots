@@ -1,5 +1,5 @@
-import { DetailHero } from "../atoms/DetailHero";
-import { TownDetailContent } from "../molecules/TownDetailContent";
+import { DetailHero } from "../../atoms/DetailHero";
+import { TownDetail } from "../../organisms/Towns/TownDetail/TownDetail";
 import { Town } from "@/types/card";
 
 interface TownDetailTemplateProps {
@@ -8,13 +8,13 @@ interface TownDetailTemplateProps {
 
 export function TownDetailTemplate({ town }: TownDetailTemplateProps) {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-white to-neutral-50">
+    <main className="min-h-screen">
       <DetailHero
         name={town.name}
         imageUrl={town.imageUrl}
         description={town.description}
       />
-      <TownDetailContent town={town} />
+      <TownDetail town={town} />
     </main>
   );
 }
