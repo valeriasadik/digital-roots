@@ -1,6 +1,6 @@
-import { CommunityDetailTemplate } from "@/components/templates/CommunityDetailTemplate";
+import { CommunityDetailTemplate } from "@/components/templates/CommunityDetailTemplate/CommunityDetailTemplate";
 import { getCommunityById, getCommunities } from "@/lib/data";
-import { buildTitle, siteMeta } from "@/lib/metadata";
+import { buildTitle } from "@/lib/metadata";
 import { notFound } from "next/navigation";
 
 interface CommunityPageProps {

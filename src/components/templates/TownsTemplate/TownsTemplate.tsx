@@ -1,5 +1,5 @@
-import { Towns } from "../organisms/Towns";
-import { Footer } from "../organisms/Footer";
+import { Towns } from "../../organisms/Towns/Towns";
+import { Footer } from "../../organisms/Footer/Footer";
 import { Town } from "@/types/card";
 
 interface TownsTemplateProps {

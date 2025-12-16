@@ -1,7 +1,6 @@
-import { Hero } from "../organisms/Hero";
-
-import { About } from "../organisms/About";
-import { Footer } from "../organisms/Footer";
+import Hero from "@/components/organisms/Hero/Hero";
+import { About } from "../../organisms/About/About";
+import { Footer } from "../../organisms/Footer/Footer";
 
 export function HomeTemplate() {
   return (

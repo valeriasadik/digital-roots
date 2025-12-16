@@ -1,4 +1,4 @@
-import { Communities } from "../organisms/Communities";
+import { Communities } from "../../organisms/Communities/Communities";
 import { Community } from "@/types/card";
 
 interface CommunitiesTemplateProps {

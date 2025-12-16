@@ -1,5 +1,5 @@
-import { DetailHero } from "../atoms/DetailHero";
-import { CommunityDetailContent } from "../molecules/CommunityDetailContent";
+import { DetailHero } from "../../atoms/DetailHero";
+import { CommunityDetail } from "../../organisms/Communities/CommunityDetail/CommunityDetailContent";
 import { Community } from "@/types/card";
 
 interface CommunityDetailTemplateProps {
@@ -10,13 +10,13 @@ export function CommunityDetailTemplate({
   community,
 }: CommunityDetailTemplateProps) {
   return (
-    <main className="min-h-screen bg-gradient-to-b from-white to-neutral-50">
+    <main className="min-h-screen">
       <DetailHero
         name={community.name}
         imageUrl={community.imageUrl}
         description={community.description}
       />
-      <CommunityDetailContent community={community} />
+      <CommunityDetail community={community} />
     </main>
   );
 }

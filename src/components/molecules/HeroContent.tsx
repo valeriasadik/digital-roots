@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import RootButton from "../atoms/RootButton";
+import Button from "../atoms/Button";
 import { FaGithub } from "react-icons/fa";
 
 export function HeroContent() {
@@ -26,7 +26,7 @@ export function HeroContent() {
         </p>
 
         <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-center">
-          <RootButton
+          <Button
             variant="secondary"
             label="GitHub"
             iconPosition="right"
