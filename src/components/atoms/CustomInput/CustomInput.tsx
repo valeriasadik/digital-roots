@@ -31,7 +31,7 @@ export const CustomInput: React.FC<CustomInputProps> = ({
         onChange={onChange}
         className={`
           w-full rounded-lg border px-4 py-3
-          text-neutral-900 placeholder:text-neutral-400
+          text-neutral-900 placeholder:text-neutral-400  bg-white
           focus:outline-none focus:ring-2 focus:ring-[var(--color-sage)]
           transition-all duration-200
           ${

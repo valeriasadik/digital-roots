@@ -1,4 +1,5 @@
 import { buildTitle, siteMeta } from "@/lib/metadata";
+import { ContactTemplate } from "@/components/templates/ContactTemplate/ContactTemplate";
 
 export const metadata = {
   title: buildTitle("Contact"),
@@ -6,5 +7,5 @@ export const metadata = {
 };
 
 export default async function ContactPage() {
-  return <></>;
+  return <ContactTemplate />;
 }

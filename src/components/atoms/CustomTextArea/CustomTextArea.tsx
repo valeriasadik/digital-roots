@@ -17,7 +17,7 @@ export const CustomTextArea: React.FC<CustomTextAreaProps> = ({
   onChange,
   value,
   placeholder,
-  rows = 4,
+  rows = 3,
 }) => {
   return (
     <div className="flex flex-col gap-2">
@@ -32,9 +32,10 @@ export const CustomTextArea: React.FC<CustomTextAreaProps> = ({
         placeholder={placeholder}
         onChange={onChange}
         rows={rows}
+        maxLength={500}
         className={`
           w-full rounded-lg border px-4 py-3
-          text-neutral-900 placeholder:text-neutral-400
+          text-neutral-900 placeholder:text-neutral-400  bg-white
           focus:outline-none focus:ring-2 focus:ring-[var(--color-sage)]
           transition-all duration-200
           resize-vertical
