@@ -40,5 +40,19 @@ export function Faqs() {
       ),
     },
   ];
-  return <Accordion accordeon={accordionData} />;
+  return (
+    <section
+      className="relative mx-auto w-full max-w-6xl px-6"
+      aria-labelledby="faqs-heading"
+    >
+      <h2
+        id="faqs-heading"
+        className="mb-8 text-4xl font-black leading-tight tracking-tight text-neutral-900 sm:text-5xl text-center"
+      >
+        Frequently Asked{" "}
+        <span className="text-[var(--color-sage)]">Questions</span>
+      </h2>
+      <Accordion accordeon={accordionData} />
+    </section>
+  );
 }

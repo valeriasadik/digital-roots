@@ -1,4 +1,4 @@
-import AboutSection from "../../molecules/AboutSection";
+import AboutSection from "../../molecules/AboutSection/AboutSection";
 
 export function About() {
   return <AboutSection />;

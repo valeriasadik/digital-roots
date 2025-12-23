@@ -1,4 +1,4 @@
-import HeroContent from "@/components/molecules/HeroContent";
+import HeroContent from "@/components/molecules/HeroContent/HeroContent";
 
 export function Hero() {
   return <HeroContent />;
