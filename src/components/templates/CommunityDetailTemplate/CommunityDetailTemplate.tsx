@@ -1,4 +1,4 @@
-import { DetailHero } from "../../atoms/DetailHero";
+import { DetailHero } from "../../atoms/DetailHero/DetailHero";
 import { CommunityDetail } from "../../organisms/Communities/CommunityDetail/CommunityDetailContent";
 import { Community } from "@/types/card";
 

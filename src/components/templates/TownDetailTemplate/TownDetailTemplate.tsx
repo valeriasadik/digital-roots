@@ -1,4 +1,4 @@
-import { DetailHero } from "../../atoms/DetailHero";
+import { DetailHero } from "../../atoms/DetailHero/DetailHero";
 import { TownDetail } from "../../organisms/Towns/TownDetail/TownDetail";
 import { Town } from "@/types/card";
 
